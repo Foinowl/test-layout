@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" type="text/css" href="./css/styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="main-layout">
+			<!-- HEADER -->
+			<header id="pageHeader" class="header">
+				<div class="container grid-row header__wrap">
+					<div class="header__left span-col-2 flex-center">
+						<div class="header__logo">
+							<img src="./img/logo.png" class="small-img" />
+						</div>
+
+						<form class="header__search">
+							<button type="submit">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									width="0.208in"
+									height="0.208in"
+								>
+									<path
+										fill-rule="evenodd"
+										fill="rgb(69, 177, 244)"
+										d="M14.870,14.235 L11.224,10.590 C12.202,9.465 12.794,7.999 12.794,6.396 C12.794,2.867 9.923,-0.000 6.397,-0.000 C2.867,-0.000 -0.000,2.870 -0.000,6.396 C-0.000,9.921 2.871,12.791 6.397,12.791 C8.000,12.791 9.467,12.199 10.592,11.222 L14.238,14.867 C14.324,14.953 14.441,15.000 14.554,15.000 C14.667,15.000 14.783,14.957 14.870,14.867 C15.043,14.694 15.043,14.408 14.870,14.235 ZM0.895,6.396 C0.895,3.362 3.363,0.898 6.394,0.898 C9.427,0.898 11.892,3.366 11.892,6.396 C11.892,9.426 9.427,11.897 6.394,11.897 C3.363,11.897 0.895,9.429 0.895,6.396 Z"
+									/>
+								</svg>
+							</button>
+							<input placeholder="Search for a info..." value="" />
+						</form>
+					</div>
+
+					<div class="header__right span-col-11" style="cursor: pointer">
+						<input type="checkbox" class="header__checkbox" id="navi-toggle" />
+						<label for="navi-toggle" class="header__user">
+							<span class="header__user-name">Электрон</span>
+							<span class="header__user-img">
+								<img src="./img/avatar.png" class="small-img border-circle" />
+							</span>
+							<div class="header__arrow"></div>
+						</label>
+						<div id="idSettings" class="header__settings">
+							<a class="settings__row"> Моя страница </a>
+							<a class="settings__row"> Выйти </a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- HEADER -->
+
+			<!-- ARTICLE -->
+
+			<article id="mainArticle" class="article">
+				<div class="container">
+					<div class="article__info grid-row">
+						<div class="card card--50 span-col-7 row-2 col-1">
+							<div class="info__top">
+								<h1>Электрон Вебов</h1>
+								<div class="current__info">
+									<div class="currinfo__editor">
+										<form class="currinfo__form">
+											<input class="currinfo__input">
+											<input type="submit" class="currinfo__btn" value="Отправить"></input>
+										</form>
+									</div>
+
+									<div class="currinfo__status">
+										<span class="currinfo__status-span"></span>
+									</div>
+								</div>
+							</div>
+							<div class="info__middle">
+								<div class="info__middle-row">
+									<div class="info__middle-left">День рождения:</div>
+									<div class="info__middle-right">23 сентября 1988г.</div>
+								</div>
+								<div class="info__middle-row">
+									<div class="info__middle-left">Семейное положение:</div>
+									<div class="info__middle-right">женат</div>
+								</div>
+								<div class="info__middle-row">
+									<div class="info__middle-left">Образование:</div>
+									<div class="info__middle-right">
+										ИжГТУ им. М.Т. Калашникова (бывш. ИМИ) '12
+									</div>
+								</div>
+								<div class="info__middle-row">
+									<div class="info__middle-left">Веб сайт:</div>
+									<div class="info__middle-right">www.web-electron.ru</div>
+								</div>
+							</div>
+
+							<div class="info__bottom">
+								<h1>Немного о себе:</h1>
+								<p>
+									С другой стороны новая модель организационной деятельности
+									влечет за собой процесс внедрения и модернизации новых
+									предложений. Товарищи! новая модель организационной
+									деятельности в значительной степени обуславливает создание
+									новых предложений.
+								</p>
+
+								<p>
+									Не следует, однако забывать, что укрепление и развитие
+									структуры в значительной степени обуславливает создание систем
+									массового участия.
+								</p>
+
+								<p>
+									Идейные соображения высшего порядка, а также постоянное
+									информационно-пропагандистское обеспечение нашей деятельности
+									требуют от нас анализа направлений прогрессивного развития.
+								</p>
+
+								<p>
+									Задача организации, в особенности же укрепление и развитие
+									структуры позволяет оценить значение направлений
+									прогрессивного развития.
+								</p>
+							</div>
+						</div>
+						<div class="card card--30 span-col-5 row-1 col-1">
+							<img class="article__info-img" src="./img/avatar.png" />
+						</div>
+					</div>
+					<div class="article__photo">
+						<div class="card">
+							<h1>Фотографии электрона</h1>
+							<div class="article__track">
+									<div class="article__image">
+										<img src="./img/photo_1.jpg" />
+									</div>
+									<div class="article__image">
+										<img src="./img/photo_2.jpg" />
+									</div>
+									<div class="article__image">
+										<img src="./img/photo_3.jpg" />
+									</div>
+									<div class="article__image">
+										<img src="./img/photo_4.jpg" />
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="article__post">
+						<h1>Записи на вашей стене</h1>
+
+						<div class="card card--h">
+							<div class="post__top grid-row">
+								<div class="post__info span-col-4">
+									<img
+										class="border-circle"
+										style="width: 100px; height: 100px"
+										src="./img/deadpool.png"
+									/>
+									<div class="post__info-title">
+										<span class="post__users-name"> Дэдпул Батькович </span>
+										<span class="post__users-date"> вчера в 16:06 </span>
+									</div>
+								</div>
+								<div class="post__close">
+									<svg
+										height="329pt"
+										viewBox="0 0 329.26933 329"
+										width="329pt"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g fill="#f44336">
+											<path
+												d="m21.339844 329.398438c-5.460938 0-10.925782-2.089844-15.082032-6.25-8.34375-8.339844-8.34375-21.824219 0-30.164063l286.589844-286.59375c8.339844-8.339844 21.824219-8.339844 30.164063 0 8.34375 8.339844 8.34375 21.824219 0 30.164063l-286.589844 286.59375c-4.183594 4.179687-9.621094 6.25-15.082031 6.25zm0 0"
+											/>
+											<path
+												d="m307.929688 329.398438c-5.460938 0-10.921876-2.089844-15.082032-6.25l-286.589844-286.59375c-8.34375-8.339844-8.34375-21.824219 0-30.164063 8.339844-8.339844 21.820313-8.339844 30.164063 0l286.589844 286.59375c8.34375 8.339844 8.34375 21.824219 0 30.164063-4.160157 4.179687-9.621094 6.25-15.082031 6.25zm0 0"
+											/>
+										</g>
+									</svg>
+								</div>
+							</div>
+							<div class="post__bottom">
+								<p>
+									Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+									сгенерировать несколько абзацев более менее осмысленного
+									текста рыбы на русском языке, а начинающему оратору отточить
+									навык публичных выступлений в домашних условиях. При создании
+									генератора мы использовали небезизвестный универсальный код
+									речей. Текст генерируется абзацами случайным образом от двух
+									до десяти предложений в абзаце, что позволяет сделать текст
+									более привлекательным и живым для визуально-слухового
+									восприятия. По своей сути рыбатекст является альтернативой
+									традиционному lorem ipsum, который вызывает у некторых людей
+									недоумение при попытках прочитать рыбу текст. В отличии от
+									lorem ipsum, текст рыба на русском языке наполнит любой макет
+									непонятным смыслом и придаст неповторимый колорит советских
+									времен.
+								</p>
+							</div>
+						</div>
+
+						<div class="card card--h">
+							<div class="post__top grid-row">
+								<div class="post__info span-col-4">
+									<img
+										class="border-circle"
+										style="width: 100px; height: 100px"
+										src="./img/logan.png"
+									/>
+									<div class="post__info-title">
+										<span class="post__users-name">
+											Россомаха РеноЛогинович
+										</span>
+										<span class="post__users-date"> вчера в 16:06 </span>
+									</div>
+								</div>
+								<div class="post__close">
+									<svg
+										height="329pt"
+										viewBox="0 0 329.26933 329"
+										width="329pt"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g fill="#f44336">
+											<path
+												d="m21.339844 329.398438c-5.460938 0-10.925782-2.089844-15.082032-6.25-8.34375-8.339844-8.34375-21.824219 0-30.164063l286.589844-286.59375c8.339844-8.339844 21.824219-8.339844 30.164063 0 8.34375 8.339844 8.34375 21.824219 0 30.164063l-286.589844 286.59375c-4.183594 4.179687-9.621094 6.25-15.082031 6.25zm0 0"
+											/>
+											<path
+												d="m307.929688 329.398438c-5.460938 0-10.921876-2.089844-15.082032-6.25l-286.589844-286.59375c-8.34375-8.339844-8.34375-21.824219 0-30.164063 8.339844-8.339844 21.820313-8.339844 30.164063 0l286.589844 286.59375c8.34375 8.339844 8.34375 21.824219 0 30.164063-4.160157 4.179687-9.621094 6.25-15.082031 6.25zm0 0"
+											/>
+										</g>
+									</svg>
+								</div>
+							</div>
+							<div class="post__bottom">
+								<p>
+									Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+									сгенерировать несколько абзацев более менее осмысленного
+									текста рыбы на русском языке, а начинающему оратору отточить
+									навык публичных выступлений в домашних условиях. При создании
+									генератора мы использовали небезизвестный универсальный код
+									речей. Текст генерируется абзацами случайным образом от двух
+									до десяти предложений в абзаце, что позволяет сделать текст
+									более привлекательным и живым для визуально-слухового
+									восприятия. По своей сути рыбатекст является альтернативой
+									традиционному lorem ipsum, который вызывает у некторых людей
+									недоумение при попытках прочитать рыбу текст. В отличии от
+									lorem ipsum, текст рыба на русском языке наполнит любой макет
+									непонятным смыслом и придаст неповторимый колорит советских
+									времен.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<form class="article__form">
+						<h1>Добавить запись</h1>
+						<input type="text" value="Ваше имя" />
+						<textarea type="text" placeholder="Текст записи..."></textarea>
+						<button>Отправить</button>
+					</form>
+				</div>
+			</article>
+
+			<!-- ARTICLE -->
+
+			<!-- FOOTER -->
+			<footer id="pageFooter" class="footer">
+				<div class="container">
+					<span class="footer__name-comp"> elbook 2018 </span>
+				</div>
+			</footer>
+		</div>
+		<script src="./js/common.js"></script>
+	</body>
+</html>
+
