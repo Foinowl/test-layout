@@ -168,8 +168,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 0 4px 8px var(--main-color-light);
-	background-color: var(--main-color-dark);
+	background-color:rgb(27, 110, 161);
 	border: 1px solid var(--main-color-dark);
 	width: 28rem;
 	cursor: pointer;
@@ -178,6 +177,7 @@ p {
 	outline: none;
 	border-radius: 10rem;
 }
+
 
 .header__search input {
 	padding: 1rem;
@@ -784,7 +784,6 @@ p {
 		
 	}
 }
-
 
 
 
