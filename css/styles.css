@@ -23,8 +23,6 @@ body {
 	line-height: 1.6;
 	overflow-x: hidden;
 	color: var(--color-dark);
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 *,
