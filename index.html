@@ -10,6 +10,7 @@
 			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./css/styles.css" />
 		<title>Document</title>
 	</head>
@@ -17,8 +18,8 @@
 		<div class="main-layout">
 			<!-- HEADER -->
 			<header id="pageHeader" class="header">
-				<div class="container grid-row header__wrap">
-					<div class="header__left span-col-2 flex-center">
+				<div class="container header__wrap">
+					<div class="header__left flex-center">
 						<div class="header__logo">
 							<img src="./img/logo.png" class="small-img" />
 						</div>
@@ -33,6 +34,7 @@
 								>
 									<path
 										fill-rule="evenodd"
+										
 										fill="rgb(69, 177, 244)"
 										d="M14.870,14.235 L11.224,10.590 C12.202,9.465 12.794,7.999 12.794,6.396 C12.794,2.867 9.923,-0.000 6.397,-0.000 C2.867,-0.000 -0.000,2.870 -0.000,6.396 C-0.000,9.921 2.871,12.791 6.397,12.791 C8.000,12.791 9.467,12.199 10.592,11.222 L14.238,14.867 C14.324,14.953 14.441,15.000 14.554,15.000 C14.667,15.000 14.783,14.957 14.870,14.867 C15.043,14.694 15.043,14.408 14.870,14.235 ZM0.895,6.396 C0.895,3.362 3.363,0.898 6.394,0.898 C9.427,0.898 11.892,3.366 11.892,6.396 C11.892,9.426 9.427,11.897 6.394,11.897 C3.363,11.897 0.895,9.429 0.895,6.396 Z"
 									/>
@@ -42,7 +44,7 @@
 						</form>
 					</div>
 
-					<div class="header__right span-col-11" style="cursor: pointer">
+					<div class="header__right" style="cursor: pointer">
 						<input type="checkbox" class="header__checkbox" id="navi-toggle" />
 						<label for="navi-toggle" class="header__user">
 							<span class="header__user-name">Электрон</span>
@@ -64,8 +66,8 @@
 
 			<article id="mainArticle" class="article">
 				<div class="container">
-					<div class="article__info grid-row">
-						<div class="card card--50 span-col-7 row-2 col-1">
+					<div class="article__info row">
+						<div class="cards col col-basic">
 							<div class="info__top">
 								<h1>Электрон Вебов</h1>
 								<div class="current__info">
@@ -131,36 +133,45 @@
 								</p>
 							</div>
 						</div>
-						<div class="card card--30 span-col-5 row-1 col-1">
+						<div class="cards col-4 card__left">
 							<img class="article__info-img" src="./img/avatar.png" />
 						</div>
 					</div>
-					<div class="article__photo">
-						<div class="card">
-							<h1>Фотографии электрона</h1>
-							<div class="article__track">
+				</div>	
+
+				<div class="wrapper-320">
+					<div class="container">
+						<div class="article__photo">
+							<div class="cards">
+								<h1>Фотографии электрона</h1>
+								<div class="article__track">
 									<div class="article__image">
 										<img src="./img/photo_1.jpg" />
 									</div>
-									<div class="article__image">
-										<img src="./img/photo_2.jpg" />
-									</div>
-									<div class="article__image">
-										<img src="./img/photo_3.jpg" />
-									</div>
-									<div class="article__image">
-										<img src="./img/photo_4.jpg" />
-									</div>
+								<div class="article__image">
+									<img src="./img/photo_2.jpg" />
+								</div>
+							<div class="article__image">
+								<img src="./img/photo_3.jpg" />
+							</div>
+							<div class="article__image">
+								<img src="./img/photo_4.jpg" />
+							</div>
+							</div>
 							</div>
 						</div>
 					</div>
+				</div>
 
+
+			<div class="wrapper-320">
+				<div class="container">
 					<div class="article__post">
 						<h1>Записи на вашей стене</h1>
 
-						<div class="card card--h">
+						<div class="cards cards--h">
 							<div class="post__top grid-row">
-								<div class="post__info span-col-4">
+								<div class="post__info">
 									<img
 										class="border-circle"
 										style="width: 100px; height: 100px"
@@ -209,9 +220,9 @@
 							</div>
 						</div>
 
-						<div class="card card--h">
+						<div class="cards cards--h">
 							<div class="post__top grid-row">
-								<div class="post__info span-col-4">
+								<div class="post__info">
 									<img
 										class="border-circle"
 										style="width: 100px; height: 100px"
@@ -262,13 +273,21 @@
 							</div>
 						</div>
 					</div>
+</div>
+			</div>
 
+			<div class="wrapper-320">
+			<div class="container" >
 					<form class="article__form">
 						<h1>Добавить запись</h1>
 						<input type="text" value="Ваше имя" />
 						<textarea type="text" placeholder="Текст записи..."></textarea>
 						<button>Отправить</button>
 					</form>
+			</div>
+				
+			</div>
+
 				</div>
 			</article>
 
@@ -276,7 +295,7 @@
 
 			<!-- FOOTER -->
 			<footer id="pageFooter" class="footer">
-				<div class="container">
+				<div class="container" >
 					<span class="footer__name-comp"> elbook 2018 </span>
 				</div>
 			</footer>
