@@ -88,6 +88,10 @@ p {
 	grid-row-gap: 3rem;
 }
 
+.wrapper-320 > div{
+	padding: 0;
+}
+
 #pageHeader {
 	grid-area: header;
 }
